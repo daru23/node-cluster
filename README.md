@@ -6,3 +6,8 @@ http server cluster to use all resources in possible in the server
 npm install
 node index.js
 ```
+
+#TODO 
+* Add hapi server
+* Test times
+* Load balance
