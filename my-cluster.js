@@ -22,12 +22,10 @@ module.exports = {
                     console.log('worker ' + worker.process.pid + ' died');
                 });
 
-
             }
 
-
         }else {
-            console.log('I am a worker! ');
+            require('./hapi-server.js');
         }
     }
 };
