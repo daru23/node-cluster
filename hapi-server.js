@@ -5,8 +5,8 @@ var Hapi = require('hapi'),
 var server = new Hapi.Server();
 
 server.connection({
-    host: 'localhost',
-    port: 8000
+    host: config.server.host,
+    port: config.server.port
 });
 
 // Add the route
