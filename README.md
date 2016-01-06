@@ -1,5 +1,6 @@
 # node-cluster
-http server cluster to use all resources in possible in the server 
+http server cluster to use all resources in possible in the server.
+Recommended when more that one core is available.
 
 #First Run
 ```
@@ -8,6 +9,6 @@ node index.js
 ```
 
 #TODO 
-* Add hapi server
+* ~~Add hapi server~~
 * Test times
 * Load balance
